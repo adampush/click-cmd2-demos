@@ -1,7 +1,7 @@
 """Hello"""
 
 import click
-import blessed
+# import blessed
 import colorama
 import cmd2
 
