@@ -6,7 +6,7 @@ setup(
     py_modules=['ccd'],
     install_requires=[
         'Click',
-        'blessed',
+        'blessings',
         'colorama',
         'cmd2',
     ],

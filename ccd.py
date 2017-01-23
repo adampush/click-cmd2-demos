@@ -2,6 +2,7 @@
 
 import click
 # import blessed
+import blessings
 import colorama
 import cmd2
 
