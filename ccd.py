@@ -1,9 +1,13 @@
 """Hello"""
 
 import click
-# import blessed
-import blessings
-import colorama
+# Note that neither blessed nor blessings work on Windows and will raise
+# and ImportError when trying to import one of their dependencies (as of 
+# blessings v1.6 / blessed v1.14.1). The solution to this is probably to 
+# check what the OS is and then have two different behaviors depending on
+# which OS it is.
+import blessed
+# import blessings
 import cmd2
 
 class myCmd(cmd2.Cmd):
